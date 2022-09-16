@@ -1,8 +1,3 @@
-/* Общие правило для изменения фокуса элементов */
-* {
-  box-sizing: border-box;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -11,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 /* Шапка */
@@ -35,13 +30,14 @@
   font-weight: 600;
   line-height: 96px;
   z-index: 3;
+  box-sizing: border-box;
 }
 
 .header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 338px;
+  width: 388px;
   margin: 0;
   font-size: 18px;
   font-weight: normal;
@@ -78,7 +74,6 @@
 .logo {
   width: 228px;
   height: 32px;
-  background-image: url(../images/logo_place_header.svg);
 }
 
 .logo_place_header {
@@ -86,6 +81,7 @@
   top: 30px;
   left: 64px;
   z-index: 3;
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .logo_place_footer {
@@ -97,6 +93,7 @@
   display: flex;
   justify-content: center;
   padding-top: 100px;
+  box-sizing: border-box;
 }
 
 /* Блок с двумя колонками секции description */
@@ -126,6 +123,7 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
+  box-sizing: border-box;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -141,6 +139,7 @@
 /* Секция digits */
 .digits {
   padding: 100px 0;
+  box-sizing: border-box;
 }
 
 /* Заголовки для секций digits и kaufman */
@@ -161,6 +160,7 @@
 .section-subtitle {
   width: 60%;
   margin: 20px auto 0;
+  box-sizing: border-box;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -175,17 +175,21 @@
 .table {
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  box-sizing: border-box;
 }
 
 .table__heading {
+  margin: 0;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
@@ -193,6 +197,7 @@
 
 .table__text {
   margin: 20px 0 0;
+  box-sizing: border-box;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -204,12 +209,13 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  box-sizing: border-box;
 }
 
 /* Секция feynman */
 .feynman {
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background: url(../images/feynman.png) bottom left/auto no-repeat, #f2f2f2;
 }
 
@@ -217,6 +223,7 @@
   width: 648px;
   padding-top: 100px;
   margin: 0 auto;
+  box-sizing: border-box;
   font-size: 120px;
   font-weight: 600;
   line-height: 1.15;
@@ -225,6 +232,7 @@
 
 .feynman__subtitle {
   margin: 70px auto 0;
+  box-sizing: border-box;
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
@@ -247,6 +255,7 @@
   position: relative;
   overflow: hidden;
   padding: 90px 0;
+  box-sizing: border-box;
   background-color: #1f1f1f;
   z-index: -2;
 }
@@ -258,6 +267,7 @@
   top: 0;
   right: -210px;
   z-index: -1;
+  background: url(../images/kaufman-triangle.svg) top right/cover no-repeat;
 }
 
 /* Подвал */
@@ -268,9 +278,10 @@
 
 .footer__columns {
   width: 90%;
-  min-height: 250px;
+  min-height: 350px;
   margin: 0 auto;
   padding: 60px 0 40px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
 }
@@ -284,6 +295,7 @@
 
 .footer__author {
   margin: 18px 0;
+  box-sizing: border-box;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -300,6 +312,7 @@
 
 .footer__column-links {
   margin: 20px 0 16px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -313,7 +326,7 @@
   color: #fff;
 }
 
-.footer__social_icons {
+.footer__social-icons {
   width: 16px;
   height: 16px;
   margin-right: 10px;
