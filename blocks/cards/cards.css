@@ -1,9 +1,11 @@
+
 /* Контейнер блока с карточками секции techniques */
 .cards {
   width: 920px;
   margin: 0 auto;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
   list-style: none;
-  /* Способ устранения проблемы появляющегося отступа между строчно-блочными элементами */
-  font-size: 0;
 }

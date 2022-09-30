@@ -1,3 +1,4 @@
+
 /* Блок с анимацией бесконечного вращения */
 .rotation {
   animation: rotation 20s linear infinite;
