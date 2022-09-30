@@ -1,0 +1,5 @@
+/* Стили для ячеек таблицы блока table */
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}

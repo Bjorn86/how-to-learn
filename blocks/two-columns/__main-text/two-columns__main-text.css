@@ -1,0 +1,5 @@
+/* Стили правой колонки блока two-columns */
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}

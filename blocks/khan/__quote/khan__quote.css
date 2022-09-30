@@ -1,0 +1,8 @@
+/* Текст с цитатой блока khan */
+.khan__quote {
+  width: 790px;
+  margin: 50px 0 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}

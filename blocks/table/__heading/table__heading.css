@@ -1,0 +1,7 @@
+/* Стили для заголовков в ячйках таблицы блока table */
+.table__heading {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+}

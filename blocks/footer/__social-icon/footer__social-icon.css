@@ -1,0 +1,6 @@
+/* Стили иконок социальных сетей в блоке footer */
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}

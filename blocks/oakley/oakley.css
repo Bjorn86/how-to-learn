@@ -1,0 +1,8 @@
+/* Секция oakley */
+.oakley {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}

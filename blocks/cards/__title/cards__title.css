@@ -1,0 +1,8 @@
+/* Заголовок карточки блока cards */
+.cards__title {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
+}

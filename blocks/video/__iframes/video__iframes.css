@@ -1,0 +1,7 @@
+/* Контейнер для элементов iframe блока video */
+.video__iframes {
+  position: relative;
+  bottom: -50px;
+  display: flex;
+  justify-content: center;
+}

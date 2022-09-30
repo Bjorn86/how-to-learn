@@ -1,0 +1,8 @@
+/* Стили заголовков в блоке footer */
+.footer__column-heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #fff;
+}

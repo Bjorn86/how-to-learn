@@ -1,0 +1,13 @@
+/* Стили блока header */
+.header {
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}

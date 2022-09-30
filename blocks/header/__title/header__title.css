@@ -1,0 +1,9 @@
+/* Заголовок блока header */
+.header__title {
+  width: 730px;
+  margin: 0 0 0 64px;
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  z-index: 3;
+}

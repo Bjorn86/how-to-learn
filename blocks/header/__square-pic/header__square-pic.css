@@ -1,0 +1,10 @@
+/* Фоновое изображение квадрата секции header */
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  z-index: 1;
+}

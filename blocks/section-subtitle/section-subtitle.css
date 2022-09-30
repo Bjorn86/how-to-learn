@@ -1,0 +1,9 @@
+/* Блок со стилями подзаголовка для различных секций */
+.section-subtitle {
+  width: 60%;
+  margin: 20px auto 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  text-align: center;
+}

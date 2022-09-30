@@ -1,0 +1,6 @@
+/* Секция feynman */
+.feynman {
+  position: relative;
+  min-height: 890px;
+  background: url(../../images/feynman.png) bottom left/auto no-repeat, #f2f2f2;
+}

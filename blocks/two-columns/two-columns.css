@@ -1,0 +1,7 @@
+/* Блок с двумя колонками */
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 80%;
+}

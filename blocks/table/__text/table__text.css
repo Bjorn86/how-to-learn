@@ -1,0 +1,7 @@
+/* Стили для текста ячеек блока table */
+.table__text {
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+}

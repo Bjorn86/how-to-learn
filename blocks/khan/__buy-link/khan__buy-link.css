@@ -1,0 +1,13 @@
+/* Стили для ссылки в блоке khan */
+.khan__buy-link {
+  vertical-align: top;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+.khan__buy-link:hover {
+  opacity: 0.6;
+  transition: all 1.5s ease 0.1s;
+}

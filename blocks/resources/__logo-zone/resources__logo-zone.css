@@ -1,0 +1,5 @@
+/* Контейнер для логотипов ресурсов блока resources */
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 0;
+}

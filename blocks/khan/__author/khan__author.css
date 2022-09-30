@@ -1,0 +1,7 @@
+/* Заголовок с именем автора секции khan */
+.khan__author {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+}

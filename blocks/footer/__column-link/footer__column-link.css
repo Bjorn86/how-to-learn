@@ -1,0 +1,12 @@
+/* Стили ссылок в блоке footer */
+.footer__column-link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer__column-link:hover {
+  opacity: 0.6;
+  transition: all 1.5s ease 0.1s;
+}

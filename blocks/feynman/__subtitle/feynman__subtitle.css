@@ -1,0 +1,8 @@
+/* Подзаголовок блока feynman */
+.feynman__subtitle {
+  margin: 70px auto 0;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-align: center;
+}

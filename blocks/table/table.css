@@ -1,0 +1,10 @@
+/* Таблица с flex-элементами для секций digits и kaufman */
+.table {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
