@@ -1,5 +1,19 @@
-
-/* Контейнер для изображения книги и ссылки на покупку блока khan */
 .khan__book-container {
   margin-top: 68px;
+}
+
+@media screen and (max-width: 896px) {
+  .khan__book-container {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .khan__book-container {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .khan__book-container {
+    margin-top: 30px;
+  }
 }

@@ -1,6 +1,5 @@
-
-/* Стили блока header */
 .header {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   padding: 0;
   position: relative;
   display: flex;
@@ -11,4 +10,33 @@
   max-height: 756px;
   background-color: #f2f2f2;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    max-height: 650px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .header {
+    max-height: 600px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .header {
+    min-height: 400px;
+    max-height: 560px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    max-height: 540px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    max-height: 470px;
+  }
 }

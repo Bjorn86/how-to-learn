@@ -1,8 +1,17 @@
-
-/* Стили для текста ячеек блока table */
 .table__text {
   margin: 20px 0 0;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.2;
+}
+
+@media screen and (max-width: 650px) {
+  .table__text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .table__text {
+    margin-top: 12px;
+  }
 }

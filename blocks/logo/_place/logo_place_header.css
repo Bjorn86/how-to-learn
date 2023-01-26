@@ -1,9 +1,16 @@
-
-/* Модификатор логотипа для блока header */
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 3;
-  background-image: url(../../../images/logo_place_header.svg);
+  background: url("../../../images/logo_place_header.svg") center center/contain no-repeat;
+}
+
+@media screen and (max-width: 896px) {
+  .logo_place_header {
+    position: relative;
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+  }
 }

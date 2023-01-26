@@ -1,11 +1,10 @@
-
-/* Контейнер блока с карточками секции techniques */
 .cards {
-  width: 920px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  max-width: 920px;
   margin: 0 auto;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: center;
   list-style: none;
 }

@@ -1,10 +1,28 @@
-
-/* Стили для левой колонки блока two-columns */
 .two-columns__brief {
   margin: 0;
-  width: 175px;
+  max-width: 175px;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.2;
   color: #2f80ed;
+}
+
+@media screen and (max-width: 896px) {
+  .two-columns__brief {
+    max-width: 150px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .two-columns__brief {
+    max-width: 130px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .two-columns__brief {
+    max-width: 100%;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
 }

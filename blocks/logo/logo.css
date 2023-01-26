@@ -1,6 +1,5 @@
-
-/* Общие стили логотипа */
 .logo {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   width: 228px;
   height: 32px;
 }

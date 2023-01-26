@@ -1,10 +1,22 @@
-
-/* Секция kaufman */
 .kaufman {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   position: relative;
   overflow: hidden;
   padding: 90px 0;
   box-sizing: border-box;
   background-color: #1f1f1f;
   z-index: -2;
+}
+
+@media screen and (max-width: 896px) {
+  .kaufman {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kaufman {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }

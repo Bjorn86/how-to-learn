@@ -1,8 +1,19 @@
-
-/* Блок с двумя колонками */
 .two-columns {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: start;
   width: 80%;
+}
+
+@media screen and (max-width: 650px) {
+  .two-columns {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+  }
 }

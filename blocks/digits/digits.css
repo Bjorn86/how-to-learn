@@ -1,6 +1,18 @@
-
-/* Секция digits */
 .digits {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   padding: 100px 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 896px) {
+  .digits {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .digits {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }

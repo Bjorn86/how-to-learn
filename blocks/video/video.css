@@ -1,7 +1,17 @@
-
-/* Секция video */
 .video {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   position: relative;
   padding-top: 100px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 896px) {
+  .video {
+    padding-top: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .video {
+    padding-top: 50px;
+  }
 }

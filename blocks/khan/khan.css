@@ -1,7 +1,17 @@
-
-/* Секция khan */
 .khan {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   padding-top: 105px;
   background-color: #f2f2f2;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 896px) {
+  .khan {
+    padding-top: 75px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .khan {
+    padding-top: 55px;
+  }
 }

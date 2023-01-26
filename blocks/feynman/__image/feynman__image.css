@@ -1,0 +1,24 @@
+.feynman__image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  object-fit: contain;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1280px) {
+  .feynman__image {
+    width: 66%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .feynman__image {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .feynman__image {
+    width: 54%;
+  }
+}

@@ -1,13 +1,37 @@
-
-/* Подзаголовок блока header */
 .header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 388px;
+  width: 100%;
+  max-width: 388px;
   margin: 0;
   font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
+  font-weight: 400;
+  line-height: 1.39;
   z-index: 3;
+}
+
+@media screen and (max-width: 1152px) {
+  .header__subtitle {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .header__subtitle {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .header__subtitle {
+    position: relative;
+    margin-bottom: 30px;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__subtitle {
+    max-width: 300px;
+  }
 }

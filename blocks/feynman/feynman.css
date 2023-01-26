@@ -1,7 +1,28 @@
-
-/* Секция feynman */
 .feynman {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   position: relative;
   min-height: 890px;
-  background: url(../../images/feynman.png) bottom left/auto no-repeat, #f2f2f2;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1152px) {
+  .feynman {
+    min-height: 800px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .feynman {
+    min-height: 610px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .feynman {
+    min-height: 430px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .feynman {
+    min-height: 340px;
+  }
 }

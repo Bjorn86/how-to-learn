@@ -1,8 +1,23 @@
-
-/* Модификатор левой колонки блока footer */
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1152px) {
+  .footer__column_content_copyright {
+    flex-basis: 500px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .footer__column_content_copyright {
+    flex-basis: 260px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer__column_content_copyright {
+    flex-basis: 120px;
+    justify-content: start;
+  }
 }

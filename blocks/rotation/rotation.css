@@ -1,5 +1,3 @@
-
-/* Keyframes для анимаций */
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -8,7 +6,6 @@
     transform: rotate(360deg);
   }
 }
-/* Блок с анимацией бесконечного вращения */
 .rotation {
   animation: rotation 20s linear infinite;
 }

@@ -1,6 +1,10 @@
-
-/* Контейнер секции khan */
 .khan__container {
   width: 80%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 650px) {
+  .khan__container {
+    width: 90%;
+  }
 }

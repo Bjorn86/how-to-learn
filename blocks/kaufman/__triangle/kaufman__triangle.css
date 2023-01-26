@@ -1,5 +1,3 @@
-
-/* Фоновое изображение треугольника в блоке kaufman */
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -7,5 +5,25 @@
   top: 0;
   right: -210px;
   z-index: -1;
-  background: url(../../../images/kaufman-triangle.svg) top right/cover no-repeat;
+  background: url("../../../images/kaufman-triangle.svg") top right/cover no-repeat;
+}
+
+@media screen and (max-width: 980px) {
+  .kaufman__triangle {
+    width: 700px;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .kaufman__triangle {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kaufman__triangle {
+    width: 300px;
+    height: 300px;
+    right: -120px;
+  }
 }

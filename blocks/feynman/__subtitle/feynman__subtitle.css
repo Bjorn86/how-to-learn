@@ -1,9 +1,30 @@
-
-/* Подзаголовок блока feynman */
 .feynman__subtitle {
   margin: 70px auto 0;
   font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
+  font-weight: 400;
+  line-height: 1.41;
   text-align: center;
+}
+
+@media screen and (max-width: 1152px) {
+  .feynman__subtitle {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .feynman__subtitle {
+    margin-top: 50px;
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .feynman__subtitle {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .feynman__subtitle {
+    font-size: 20px;
+  }
 }

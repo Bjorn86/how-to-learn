@@ -1,16 +1,39 @@
-
-/* Ссылки блока feynman */
 .feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
   font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
+  font-weight: 400;
+  line-height: 1.41;
   text-decoration: none;
   color: #2f80ed;
 }
 .feynman__link:hover {
   opacity: 0.6;
-  transition: all 1.5s ease 0.1s;
+  transition: opacity 1.5s ease 0.1s;
+}
+
+@media screen and (max-width: 1152px) {
+  .feynman__link {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .feynman__link {
+    right: 20px;
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .feynman__link {
+    font-size: 24px;
+    right: 10px;
+    top: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .feynman__link {
+    font-size: 20px;
+    top: 75%;
+  }
 }

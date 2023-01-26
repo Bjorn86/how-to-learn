@@ -1,11 +1,30 @@
-
-/* Главное изображение блока header */
 .header__main-illustration {
   position: absolute;
-  bottom: 0;
+  bottom: -48px;
   right: 0;
   width: 765px;
-  height: 608px;
+  max-height: 100%;
   z-index: 2;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__main-illustration {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .header__main-illustration {
+    width: 570px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .header__main-illustration {
+    width: 530px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .header__main-illustration {
+    display: none;
+  }
 }

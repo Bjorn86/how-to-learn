@@ -1,5 +1,3 @@
-
-/* Контейнер с колонками для блока footer */
 .footer__columns {
   width: 90%;
   min-height: 350px;
@@ -8,4 +6,11 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__columns {
+    flex-direction: column;
+    padding-top: 40px;
+  }
 }

@@ -1,8 +1,18 @@
-
-/* Секция techniques */
 .techniques {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   width: 80%;
   margin: 0 auto;
   padding: 100px 0 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 896px) {
+  .techniques {
+    padding-top: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .techniques {
+    padding-top: 50px;
+  }
 }

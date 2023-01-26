@@ -1,9 +1,7 @@
-
-/* Стили для текста автора сайта блока footer */
 .footer__author {
   margin: 18px 0;
   font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
+  font-weight: 400;
+  line-height: 1.38;
   color: #fff;
 }

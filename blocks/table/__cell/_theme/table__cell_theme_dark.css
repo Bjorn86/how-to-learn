@@ -1,5 +1,3 @@
-
-/* Модификатор тёмной темы для ячеек таблицы блока table */
 .table__cell_theme_dark {
   width: 200px;
   color: white;

@@ -1,8 +1,5 @@
-
-/* Секция description */
 .description {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   display: flex;
   justify-content: center;
-  padding-top: 100px;
-  box-sizing: border-box;
 }

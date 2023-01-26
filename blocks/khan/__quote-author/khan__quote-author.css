@@ -1,8 +1,25 @@
-
-/* Текст с автором цитыты блока khan */
 .khan__quote-author {
   margin: 36px 0 0;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
+}
+
+@media screen and (max-width: 896px) {
+  .khan__quote-author {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .khan__quote-author {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .khan__quote-author {
+    margin-top: 20px;
+    font-size: 16px;
+  }
 }

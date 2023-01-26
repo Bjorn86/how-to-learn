@@ -1,9 +1,7 @@
-
-/* Ссылки блока resources */
 .resources__link {
   text-decoration: none;
 }
 .resources__link:hover {
   opacity: 0.6;
-  transition: all 1.5s ease 0.1s;
+  transition: opacity 1.5s ease 0.1s;
 }

@@ -1,10 +1,16 @@
-
-/* Блок со стилями подзаголовка для различных секций */
 .section-subtitle {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   width: 60%;
   margin: 20px auto 0;
   font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
+  font-weight: 400;
+  line-height: 1.41;
   text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .section-subtitle {
+    width: 80%;
+    font-size: 20px;
+  }
 }

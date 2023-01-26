@@ -1,7 +1,16 @@
-
-/* Стили акцентного оформления текста в правой колонке блока two-columns */
 .two-columns__span-accent {
   font-size: 24px;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 1.41;
+}
+
+@media screen and (max-width: 896px) {
+  .two-columns__span-accent {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .two-columns__span-accent {
+    font-size: 16px;
+  }
 }

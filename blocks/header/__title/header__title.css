@@ -1,10 +1,36 @@
-
-/* Заголовок блока header */
 .header__title {
-  width: 730px;
+  width: 100%;
+  max-width: 730px;
   margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: 600;
-  line-height: 96px;
+  line-height: 0.95;
   z-index: 3;
+}
+
+@media screen and (max-width: 1152px) {
+  .header__title {
+    font-size: 84px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .header__title {
+    max-width: 580px;
+    font-size: 72px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .header__title {
+    max-width: 370px;
+    font-size: 68px;
+    margin: 0;
+    text-align: center;
+    color: #f2f2f2;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__title {
+    max-width: 300px;
+    font-size: 52px;
+  }
 }

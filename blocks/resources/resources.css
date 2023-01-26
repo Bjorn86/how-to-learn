@@ -1,6 +1,18 @@
-
-/* Секция resources */
 .resources {
-  padding: 100px 0 217px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  padding: 100px 0 117px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 896px) {
+  .resources {
+    padding-top: 70px;
+    padding-bottom: 87px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .resources {
+    padding-top: 50px;
+    padding-bottom: 67px;
+  }
 }

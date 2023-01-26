@@ -1,9 +1,7 @@
-
-/* Текстовый блок карточки блока cards */
 .cards__description {
   margin: 0;
   font-size: 18px;
-  font-weight: normal;
-  line-height: 23px;
+  font-weight: 400;
+  line-height: 1.27;
   text-align: center;
 }

@@ -1,10 +1,38 @@
-
-/* Изображение обложки книги блока khan */
 .khan__book-pic {
   width: 620px;
-  height: 608px;
+  max-height: 608px;
   margin-right: 48px;
   object-fit: cover;
   object-position: top;
   vertical-align: bottom;
+}
+
+@media screen and (max-width: 1152px) {
+  .khan__book-pic {
+    width: 67%;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .khan__book-pic {
+    margin-right: 18px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .khan__book-pic {
+    width: 60%;
+    max-height: 370px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .khan__book-pic {
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .khan__book-pic {
+    width: 55%;
+    max-height: 200px;
+    margin-right: 10px;
+  }
 }

@@ -1,6 +1,16 @@
-
-/* Стили для ячеек таблицы блока table */
 .table__cell {
   width: 250px;
   margin-top: 60px;
+}
+
+@media screen and (max-width: 650px) {
+  .table__cell {
+    width: 200px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .table__cell {
+    width: 260px;
+  }
 }

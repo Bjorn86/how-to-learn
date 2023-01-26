@@ -1,13 +1,29 @@
-
-/* Контейнер для элементов iframe блока video */
 .video__iframes {
   position: relative;
   bottom: -50px;
-  width: 1050px;
+  max-width: 1050px;
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1152px) {
+  .video__iframes {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 896px) {
+  .video__iframes {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .video__iframes {
+    bottom: -25px;
+  }
 }

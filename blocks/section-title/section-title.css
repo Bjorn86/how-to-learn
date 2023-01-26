@@ -1,10 +1,21 @@
-
-/* Блок со стилями заголвка для различных секций */
 .section-title {
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   width: 60%;
   margin: 0 auto;
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
   text-align: center;
+}
+
+@media screen and (max-width: 896px) {
+  .section-title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section-title {
+    width: 80%;
+    font-size: 30px;
+  }
 }

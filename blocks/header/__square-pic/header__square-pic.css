@@ -1,5 +1,3 @@
-
-/* Фоновое изображение квадрата секции header */
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -8,4 +6,38 @@
   height: 568px;
   background-color: #2f80ed;
   z-index: 1;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__square-pic {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .header__square-pic {
+    width: 420px;
+    height: 420px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .header__square-pic {
+    width: 380px;
+    height: 380px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .header__square-pic {
+    width: 370px;
+    height: 370px;
+    right: calc(50% - 185px);
+    top: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header__square-pic {
+    width: 300px;
+    height: 300px;
+    right: calc(50% - 150px);
+  }
 }
